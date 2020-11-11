@@ -30,6 +30,7 @@ export function crateTemplateFolder(opts: Options = {}) {
 
   copyToTemplate('internals/ts-node.tsconfig.json');
 
+  copyToTemplate('.editorconfig');
   copyToTemplate('.vscode', true);
   copyToTemplate('public', true);
   copyToTemplate('src', true);

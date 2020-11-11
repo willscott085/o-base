@@ -8,6 +8,7 @@ const prettierOptions = JSON.parse(
 module.exports = {
   extends: [
     'react-app',
+    'overstock',
     'prettier',
     'prettier/react',
     'prettier/@typescript-eslint',

@@ -1,18 +1,20 @@
 {
-  "name": "cra-template-rb",
-  "description": "The official React Boilerplate template for Create React App",
-  "version": "1.0.2",
+  "name": "o-base",
+  "description": "React starter project",
+  "version": "0.1.0",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-boilerplate/react-boilerplate-cra-template.git"
+    "url": "https://github.com/willscott085/o-base"
   },
   "license": "MIT",
   "engines": {
     "npm": ">=6.4.1",
-    "node": ">=10.13.0"
+    "node": ">=12.13.1",
+    "yarn": "^1.17.3"
   },
   "bugs": {
-    "url": "https://github.com/react-boilerplate/react-boilerplate-cra-template/issues"
+    "url": "https://github.com/willscott085/o-base/issues"
   },
   "main": "template.json",
   "files": [
@@ -23,10 +25,7 @@
     "react",
     "create-react-app",
     "template",
-    "typescript",
-    "redux",
-    "reduxjs",
-    "react-redux",
+    "recoil",
     "react-boilerplate",
     "styled-components"
   ],
@@ -134,6 +133,7 @@
     "coveralls": "3.0.11",
     "cross-env": "7.0.2",
     "devmoji": "2.1.9",
+    "eslint-config-overstock": "3.1.0",
     "eslint-config-prettier": "6.10.1",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.19.0",
